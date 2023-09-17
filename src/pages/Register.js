@@ -1,5 +1,7 @@
-import React from 'react';
+import React,{useState} from 'react';
 import ButtonGroup from '../components/ButtonGroup';
+
+//const [message, setMessage] = useState("");
 
 var userEmail;
 var userPassword;
@@ -12,7 +14,7 @@ const Register = () =>
         
         window.location.href = "/login"
     }
-    //const [message, setMessage] = useState("");
+    const [message, setMessage] = useState("");
     const doRegister = async (event) => {
 
         event.preventDefault();
@@ -33,7 +35,7 @@ const Register = () =>
             })
             var res = JSON.parse(await response.text());
             if(res.id <= 0) {
-                //setMessage('There was an error trying to register.');
+                setMessage('There was an error trying to register.');
             }
             else {
                 var user = {
@@ -41,7 +43,7 @@ const Register = () =>
                     id: res.id
                 };
                 localStorage.setItem('user_data', JSON.stringify(user));
-                //setMessage('Registered successfully');
+                setMessage('Registered successfully');
                 window.location.href = "/home";
 
             }
@@ -74,7 +76,8 @@ const Register = () =>
             <div className='buttons'>
                     <button onClick={doRegister}>Register</button>
                     <button onClick={doLogin}>Login</button>
-                </div>
+            </div>
+            <span>{message}</span>
         </div>
     );
 };
