@@ -6,13 +6,21 @@ var userPassword;
 var confirmPassword;
 const Register = () =>
 {
+    const doLogin = async event =>{
+        event.preventDefault();
+        alert("go to login");
+        
+        window.location.href = "/login"
+    }
+    //const [message, setMessage] = useState("");
     const doRegister = async (event) => {
 
         event.preventDefault();
 
         let obj = {
             email: userEmail.value,
-            password: userPassword.value
+            password: userPassword.value,
+            conpassword: confirmPassword.value
         }
 
         let js = JSON.stringify(obj);
@@ -34,7 +42,7 @@ const Register = () =>
                 };
                 localStorage.setItem('user_data', JSON.stringify(user));
                 //setMessage('Registered successfully');
-                window.location.href = "/";
+                window.location.href = "/home";
 
             }
         }
@@ -65,7 +73,7 @@ const Register = () =>
             </div>
             <div className='buttons'>
                     <button onClick={doRegister}>Register</button>
-                    <button>Login</button>
+                    <button onClick={doLogin}>Login</button>
                 </div>
         </div>
     );
