@@ -50,39 +50,40 @@
 
 .Box2 {
     padding: 10px;
-    background-color: #40b7d8;
+    background-color: #FA8992;
     border-radius: 10px;
     margin: 20px;
     margin-right: 0px;
     color: white;
     height: 650px;
-    width: 950px;
+    width: 925px;
     float: left;
 }
 
 .Box3 {
     padding: 10px;
-    background-color: #40b7d8;
+    background-color: #69CA79;
     border-radius: 10px;
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
     color: white;
     height: 650px;
-    width: 500px;
+    width: 470px;
     float: right;
+    text-align: center;
 }
 
 .Box4 {
     padding: 10px;
-    background-color: #d6651a;
+    background-color: white;
     border-radius: 10px;
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    color: white;
+    color: black;
     height: 170px;
-    width: 910px;
+    width: 885px;
     flex-direction: column;
 }
 
@@ -93,38 +94,33 @@
 /*
 qb means quote button
 */
-.qb1{
-    margin: 0;
-    position: absolute;
-    top: 20%;
-    left: 58%;
-    height: 70px;
-    width: 80px;
+
+.quote {
+    margin: 10px;
+    top: 0%;
+    left: 100%;
+    margin-bottom: 10px;
+    height: 90px;
+    width: 180px;
     border-radius: 10px;
+    float: right;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
-.qb2 {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 58%;
-    height: 70px;
-    width: 80px;
-    border-radius: 10px;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+.quote:hover{
+    background-color: lightcoral;
+    cursor: pointer;
 }
 
-.qb3 {
-    margin: 0;
-    position: absolute;
-    top: 80%;
-    left: 58%;
-    height: 70px;
-    width: 80px;
+.Box5 {
+    padding: 10px;
+    background-color: lightblue;
     border-radius: 10px;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    height: 75px;
+    width: 200px;
 }
