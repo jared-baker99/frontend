@@ -6,6 +6,7 @@ import ButtonGroup from '../components/ButtonGroup';
 var userEmail;
 var userPassword;
 var confirmPassword;
+
 const Register = () =>
 {
     const doLogin = async event =>{
