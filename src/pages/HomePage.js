@@ -11,6 +11,7 @@ const HomePage = () =>
     let car = ud.carIn;
     let home = ud.homeIn;
     let rent = ud.rentIn;
+    let insurer = ud.insureCon;
 
     const doLogout = async (event) =>
     {
@@ -26,9 +27,11 @@ const HomePage = () =>
 
     return(
         <div className='UserRegister'>
+        
             <div className='Row'>
+                    <h1 className='insurancetext'> {insurer}</h1>
+                    <button className='logout' onClick={doLogout}>logout</button>
                 <div className='Box'>
-                    <h1 className='insurancetext'> StateFarm</h1>
                     <div className='circle'>
                         <h2 className='typetext'>Car</h2>
                         <p className='moneytext'>{car}</p>    
@@ -38,7 +41,6 @@ const HomePage = () =>
                         </div>
                 </div>
                 <div className='Box'>
-                    <h1 className='insurancetext'> Progressive</h1>
                     <div className='circle'>
                         <h2 className='typetext'>Home</h2>
                         <p className='moneytext'>{home}</p>    
@@ -48,7 +50,6 @@ const HomePage = () =>
                     </div>
                 </div>
                 <div className='Box'>
-                <h1 className='insurancetext'> Geico</h1>
                     <div className='circle'>
                         <h2 className='typetext'>Rentor</h2>
                         <p className='moneytext'>{rent}</p>    
@@ -58,7 +59,6 @@ const HomePage = () =>
                         </div>
                 </div>
             </div>
-            <button onClick={doLogout}>logout</button>
         </div>
     );
     

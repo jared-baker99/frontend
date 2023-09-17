@@ -28,7 +28,8 @@ const MainPage = () =>
                     id:res.id,
                     carIn:res.car,
                     homeIn:res.home,
-                    rentIn:res.rent
+                    rentIn:res.rent,
+                    insureCon:res.insurer
                 }
                 localStorage.setItem('user_data', JSON.stringify(user));
                 //setMessage('');
