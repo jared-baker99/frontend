@@ -10,7 +10,7 @@ const Register = () =>
         event.preventDefault();
         alert("go to login");
         
-        window.location.href = "/Home"
+        window.location.href = "/login"
     }
     //const [message, setMessage] = useState("");
     const doRegister = async (event) => {
