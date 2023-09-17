@@ -6,13 +6,15 @@ var userPassword;
 var confirmPassword;
 const Register = () =>
 {
+    //const [message, setMessage] = useState("");
     const doRegister = async (event) => {
 
         event.preventDefault();
 
         let obj = {
             email: userEmail.value,
-            password: userPassword.value
+            password: userPassword.value,
+            conpassword: confirmPassword.value
         }
 
         let js = JSON.stringify(obj);
@@ -34,7 +36,7 @@ const Register = () =>
                 };
                 localStorage.setItem('user_data', JSON.stringify(user));
                 //setMessage('Registered successfully');
-                window.location.href = "/";
+                window.location.href = "/home";
 
             }
         }
