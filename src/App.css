@@ -111,3 +111,15 @@
   
 }
 
+.learnbutton:hover{
+  background-color: #0f864e;
+  cursor: pointer;
+}
+
+.learnpage {
+  background: url(./backgroundRegister.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}

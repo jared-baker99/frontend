@@ -48,7 +48,83 @@
 
 }
 
+.Box2 {
+    padding: 10px;
+    background-color: #40b7d8;
+    border-radius: 10px;
+    margin: 20px;
+    margin-right: 0px;
+    color: white;
+    height: 650px;
+    width: 950px;
+    float: left;
+}
 
+.Box3 {
+    padding: 10px;
+    background-color: #40b7d8;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    height: 650px;
+    width: 500px;
+    float: right;
+}
 
+.Box4 {
+    padding: 10px;
+    background-color: #d6651a;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    height: 170px;
+    width: 910px;
+    flex-direction: column;
+}
 
+.headingtext {
+    margin-top: 5px;
+}
 
+/*
+qb means quote button
+*/
+.qb1{
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 58%;
+    height: 70px;
+    width: 80px;
+    border-radius: 10px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.qb2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 58%;
+    height: 70px;
+    width: 80px;
+    border-radius: 10px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.qb3 {
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 58%;
+    height: 70px;
+    width: 80px;
+    border-radius: 10px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
