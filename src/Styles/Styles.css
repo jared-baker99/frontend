@@ -1,0 +1,54 @@
+.Row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.Box {
+    padding: 10px;
+    background-color: #FFFDF9;
+    border-radius: 10px;
+    margin: 20px;
+    color: white
+}
+
+.circle {
+    background: #0B990B;
+    line-height: 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    line-height: 0;
+    float: left;
+}
+
+.typetext{
+    font-family: Sans-serif;
+    font-style: italic;
+    font-size: 18pt;
+    color: rgba(254, 254, 254);
+    padding-top: 30%;
+}
+
+.moneytext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color: rgb(0, 0, 0);
+}
+
+.insurancetext{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0;
+    font-size: 25pt;
+    color: #FA8892;
+    text-align: vertical;
+
+}
+
+
+
+
+
