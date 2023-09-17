@@ -21,14 +21,14 @@
   border: 1.5px solid rgb(25, 26, 24);
   }
 
-  .buttons {
-    margin: 0;
-    position: absolute;
-   top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
+.buttons {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
 .mystyle{
   height:100vh;

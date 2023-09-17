@@ -6,6 +6,12 @@ var userPassword;
 var confirmPassword;
 const Register = () =>
 {
+    const doLogin = async event =>{
+        event.preventDefault();
+        alert("go to login");
+        
+        window.location.href = "/Home"
+    }
     //const [message, setMessage] = useState("");
     const doRegister = async (event) => {
 
@@ -67,7 +73,7 @@ const Register = () =>
             </div>
             <div className='buttons'>
                     <button onClick={doRegister}>Register</button>
-                    <button>Login</button>
+                    <button onClick={doLogin}>Login</button>
                 </div>
         </div>
     );
