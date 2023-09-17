@@ -56,6 +56,10 @@ const Register = () =>
 
     return(
         <div className='UserRegister'>
+            <h1 className="appname">
+                InsurFind
+            </h1>
+            <p className="slogan">empower your future with insurance</p>
             <div className='registerInfo'>
                 <p>Register here</p>
                 <label for="email">Enter your email:   </label>

@@ -45,7 +45,7 @@
   font-size: 72pt;
   text-align: center;
   padding-top: 50;
-  line-height: .5;
+  line-height: .2;
 
 }
 
@@ -54,8 +54,7 @@
   text-align: center;
   color:rgb(250, 137, 146);
   font-size: 36pt;
-  line-height: .5;
-  padding-top: 40;
+  line-height: .2;
 }
 
 .loginbox{
@@ -101,18 +100,17 @@
   width: 300px;
   height: 120px;
   vertical-align: center;
-  border: 1.5px solid #0f864e;
+  border: 1.5px solid #FA934A;
   border-radius: 5px;
-  background-color: #38f09a;
+  background-color: rgb(250, 137, 146);
   font-size: Large;
   margin-right: 20px;
   margin-top: 15px;
-  
-  
+  border-radius: 15%;  
 }
 
 .learnbutton:hover{
-  background-color: #0f864e;
+  background-color: #8997909e;
   cursor: pointer;
 }
 
@@ -129,4 +127,19 @@
   width:60px;
   float:inline-end;
   text-align: center;
+}
+.insurancetext{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 0;
+  font-size: 25pt;
+  color: #FA8892;
+  text-align: vertical;
+
+}
+.informationtext{
+  text-align: center;
+  right: 100px;
+  color: black;
+  padding-left: 8%;
+
 }
